@@ -1,0 +1,45 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+// Frameworks
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <QuartzCore/QuartzCore.h>
+
+// Constently used classes
+#import "UIColor+Additions.h"
+#import "FrameAccessor.h"
+
+// Singletons
+#import "TMVAppDelegate.h"
+#import "TMVAppContainerViewController.h"
+#import "TMVSettingsContainerController.h"
+#import "TMVDataManager.h"
+#import "TMVSoundManager.h"
+#import "TMVNotificationManager.h"
+#import "TMVTimeManager.h"
+#import "TMVIAPManager.h"
+
+// Managed Objects
+#import "CounterItem.h"
+#import "TimerItem.h"
+#import "AlarmItem.h"
+#import "Item.h"
+#import "Color.h"
+#import "Sound.h"
+#import "Location.h"
+#import "Settings.h"
+
+#endif

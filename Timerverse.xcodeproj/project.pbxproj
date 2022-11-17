@@ -1,0 +1,1362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F183C0218FF71BB00404A3E /* TMVQuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F183C0118FF71BB00404A3E /* TMVQuoteViewController.m */; };
+		6F183C0518FF71F200404A3E /* TMVQuoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F183C0418FF71F200404A3E /* TMVQuoteCell.m */; };
+		6F183C0818FF723300404A3E /* TMVHelixFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F183C0718FF723300404A3E /* TMVHelixFlowLayout.m */; };
+		6F2E27D0189EEDA90076E4E6 /* TMVSettingsButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E27CF189EEDA90076E4E6 /* TMVSettingsButtonView.m */; };
+		6F2E27D6189F096B0076E4E6 /* TMVFloatingBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E27D5189F096B0076E4E6 /* TMVFloatingBehavior.m */; };
+		6F3A02DE18DFCFB20044A54F /* LRScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3A02DD18DFCFB20044A54F /* LRScrollViewController.m */; };
+		6F628212191AF52000D5B8FE /* TMVCounterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F628211191AF52000D5B8FE /* TMVCounterLabel.m */; };
+		6F6E89E218FA1EAD0091AF03 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E89DF18FA1EAD0091AF03 /* FBShimmeringLayer.m */; };
+		6F6E89E318FA1EAD0091AF03 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E89E118FA1EAD0091AF03 /* FBShimmeringView.m */; };
+		6F6E89E618FA1F1B0091AF03 /* TMVNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6E89E518FA1F1B0091AF03 /* TMVNotificationManager.m */; };
+		6F7EC5B318A0A7960073F6B8 /* TMVAlarmItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EC5B218A0A7960073F6B8 /* TMVAlarmItem.m */; };
+		6F7EC5B618A0A83A0073F6B8 /* TMVAlarmItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EC5B518A0A83A0073F6B8 /* TMVAlarmItemView.m */; };
+		6F883B1818AC5A05006B9CBD /* SAMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F883B1418AC5A05006B9CBD /* SAMath.m */; };
+		6F8A47F718B104A400D6BDD3 /* TMVTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A47F618B104A400D6BDD3 /* TMVTimeManager.m */; };
+		6F95654218A7007F00F3B95D /* SKMuteSwitchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F95654118A7007F00F3B95D /* SKMuteSwitchDetector.m */; };
+		6F9CDC0618BECDCF002ADB1E /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9CDC0518BECDCF002ADB1E /* UIColor+Additions.m */; };
+		6F9DB7E418C2A30200EC0F88 /* SAAlarmControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DB7E118C2A30200EC0F88 /* SAAlarmControl.m */; };
+		6F9DB7E518C2A30200EC0F88 /* SATimerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DB7E318C2A30200EC0F88 /* SATimerControl.m */; };
+		6F9DB7F718C2A6AE00EC0F88 /* TMVQuoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9DB7F518C2A6AE00EC0F88 /* TMVQuoteView.m */; };
+		6F9E826C189A043600B6B7E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9E826B189A043600B6B7E5 /* Foundation.framework */; };
+		6F9E826E189A043600B6B7E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9E826D189A043600B6B7E5 /* CoreGraphics.framework */; };
+		6F9E8270189A043600B6B7E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9E826F189A043600B6B7E5 /* UIKit.framework */; };
+		6F9E8276189A043600B6B7E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E8274189A043600B6B7E5 /* InfoPlist.strings */; };
+		6F9E8278189A043600B6B7E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E8277189A043600B6B7E5 /* main.m */; };
+		6F9E8284189A043600B6B7E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E8283189A043600B6B7E5 /* Images.xcassets */; };
+		6F9E828B189A043600B6B7E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9E828A189A043600B6B7E5 /* XCTest.framework */; };
+		6F9E828C189A043600B6B7E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9E826B189A043600B6B7E5 /* Foundation.framework */; };
+		6F9E828D189A043600B6B7E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9E826F189A043600B6B7E5 /* UIKit.framework */; };
+		6F9E8295189A043600B6B7E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E8293189A043600B6B7E5 /* InfoPlist.strings */; };
+		6F9E8297189A043600B6B7E5 /* TimerverseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E8296189A043600B6B7E5 /* TimerverseTests.m */; };
+		6F9E82F2189A04D300B6B7E5 /* AbyssView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82A1189A04D300B6B7E5 /* AbyssView.m */; };
+		6F9E82F4189A04D300B6B7E5 /* TMVKickOutBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82A5189A04D300B6B7E5 /* TMVKickOutBehavior.m */; };
+		6F9E82F6189A04D300B6B7E5 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82A8189A04D300B6B7E5 /* Color.m */; };
+		6F9E82F8189A04D300B6B7E5 /* EGOGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82AC189A04D300B6B7E5 /* EGOGradientView.m */; };
+		6F9E82FA189A04D300B6B7E5 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82B0189A04D300B6B7E5 /* Location.m */; };
+		6F9E82FB189A04D300B6B7E5 /* TNKDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82B2189A04D300B6B7E5 /* TNKDisplayLink.m */; };
+		6F9E82FD189A04D300B6B7E5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82B4189A04D300B6B7E5 /* Model.xcdatamodeld */; };
+		6F9E82FF189A04D300B6B7E5 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82B9189A04D300B6B7E5 /* Sound.m */; };
+		6F9E8300189A04D300B6B7E5 /* Alert.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82BB189A04D300B6B7E5 /* Alert.mp3 */; };
+		6F9E8301189A04D300B6B7E5 /* Alert 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82BC189A04D300B6B7E5 /* Alert 2.mp3 */; };
+		6F9E8302189A04D300B6B7E5 /* Alert 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82BD189A04D300B6B7E5 /* Alert 3.mp3 */; };
+		6F9E8303189A04D300B6B7E5 /* Alert 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82BE189A04D300B6B7E5 /* Alert 4.mp3 */; };
+		6F9E8304189A04D300B6B7E5 /* Alert 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82BF189A04D300B6B7E5 /* Alert 5.mp3 */; };
+		6F9E8306189A04D300B6B7E5 /* Buzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82C1189A04D300B6B7E5 /* Buzzer.mp3 */; };
+		6F9E8307189A04D300B6B7E5 /* Cut Out.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82C2189A04D300B6B7E5 /* Cut Out.mp3 */; };
+		6F9E8308189A04D300B6B7E5 /* Dropped.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82C3189A04D300B6B7E5 /* Dropped.mp3 */; };
+		6F9E8309189A04D300B6B7E5 /* Elevator Ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82C4189A04D300B6B7E5 /* Elevator Ding.mp3 */; };
+		6F9E830A189A04D300B6B7E5 /* Enchanted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82C5189A04D300B6B7E5 /* Enchanted.mp3 */; };
+		6F9E830B189A04D300B6B7E5 /* GT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82C6189A04D300B6B7E5 /* GT.mp3 */; };
+		6F9E830C189A04D300B6B7E5 /* 1Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82C7189A04D300B6B7E5 /* 1Up.mp3 */; };
+		6F9E830D189A04D300B6B7E5 /* Ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9E82C8189A04D300B6B7E5 /* Ring.mp3 */; };
+		6F9E830F189A04D300B6B7E5 /* TDMScreenEdgePanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82CB189A04D300B6B7E5 /* TDMScreenEdgePanGestureRecognizer.m */; };
+		6F9E8313189A04D300B6B7E5 /* TMVAtmosphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82D3189A04D300B6B7E5 /* TMVAtmosphere.m */; };
+		6F9E8315189A04D300B6B7E5 /* TMVDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82D7189A04D300B6B7E5 /* TMVDataManager.m */; };
+		6F9E8316189A04D300B6B7E5 /* TMVItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82D9189A04D300B6B7E5 /* TMVItemManager.m */; };
+		6F9E8317189A04D300B6B7E5 /* TMVItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82DB189A04D300B6B7E5 /* TMVItemView.m */; };
+		6F9E831A189A04D300B6B7E5 /* TMVSoundWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82E1189A04D300B6B7E5 /* TMVSoundWave.m */; };
+		6F9E831B189A04D300B6B7E5 /* TMVTimerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82E3189A04D300B6B7E5 /* TMVTimerItem.m */; };
+		6F9E831C189A04D300B6B7E5 /* TMVTimerItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82E5189A04D300B6B7E5 /* TMVTimerItemView.m */; };
+		6F9E831E189A04D300B6B7E5 /* TMVAppContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E82E9189A04D300B6B7E5 /* TMVAppContainerViewController.m */; };
+		6F9E8326189A056C00B6B7E5 /* TMVPaperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E8325189A056C00B6B7E5 /* TMVPaperView.m */; };
+		6F9E8328189A05DC00B6B7E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9E8327189A05DC00B6B7E5 /* QuartzCore.framework */; };
+		6F9E832A189A05E200B6B7E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9E8329189A05E200B6B7E5 /* CoreData.framework */; };
+		6FA04DCD191476C60033E2D3 /* TMVDashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA04DCC191476C60033E2D3 /* TMVDashView.m */; };
+		6FA23B53196F130A0069F8F3 /* TMVVolumeDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA23B52196F130A0069F8F3 /* TMVVolumeDetector.m */; };
+		6FA24AE118BD8A8B004D2796 /* TMVGalaxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA24AE018BD8A8B004D2796 /* TMVGalaxy.m */; };
+		6FA266A318A748020023419A /* TMVStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA266A218A748020023419A /* TMVStatusBarView.m */; };
+		6FA32D6118C38F4200210CF7 /* TMVNonInteractiveScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA32D6018C38F4200210CF7 /* TMVNonInteractiveScrollView.m */; };
+		6FA37D3918B1799A0045456F /* TMVAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA37D3618B1799A0045456F /* TMVAlarmViewController.m */; };
+		6FA38A69192D87A800A035D6 /* PaintCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA38A68192D87A800A035D6 /* PaintCube.m */; };
+		6FA38A6C192D87B900A035D6 /* TNKCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA38A6B192D87B900A035D6 /* TNKCube.m */; };
+		6FA38A74192D881600A035D6 /* ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA38A6D192D881600A035D6 /* ViewFrameAccessor.m */; };
+		6FA38A75192D881600A035D6 /* ScrollViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA38A6F192D881600A035D6 /* ScrollViewFrameAccessor.m */; };
+		6FA38A76192D881600A035D6 /* RectAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA38A71192D881600A035D6 /* RectAccessor.m */; };
+		6FA3984F18A2D83D009581F5 /* CounterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA3984E18A2D83D009581F5 /* CounterItem.m */; };
+		6FA3985218A2D83D009581F5 /* TimerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA3985118A2D83D009581F5 /* TimerItem.m */; };
+		6FA54F1018DE6AF500E3011C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA54F0F18DE6AF500E3011C /* MessageUI.framework */; };
+		6FA6CE8B19723AF100629AEE /* TMVStatusBarGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6CE8A19723AF100629AEE /* TMVStatusBarGroupView.m */; };
+		6FA82A0318DF36D600D72AB4 /* TMVAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA82A0218DF36D600D72AB4 /* TMVAboutViewController.m */; };
+		6FA82A0918DF659400D72AB4 /* TMVSettingsContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA82A0818DF659400D72AB4 /* TMVSettingsContainerController.m */; };
+		6FA83E0B190D4B77004CFDF4 /* waveTest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FA83E0A190D4B77004CFDF4 /* waveTest.mp3 */; };
+		6FA98F4919396A0F003214C0 /* TMVTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA98F4819396A0F003214C0 /* TMVTutorialViewController.m */; };
+		6FA98F4C19396A1C003214C0 /* TNKArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA98F4B19396A1C003214C0 /* TNKArrayDataSource.m */; };
+		6FA98F4E19396A2F003214C0 /* TMVSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA98F4D19396A2F003214C0 /* TMVSoundManager.m */; };
+		6FA98F5019396A4A003214C0 /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA98F4F19396A4A003214C0 /* iPhone_Storyboard.storyboard */; };
+		6FAB6F6219733216009B70AE /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB6F6119733216009B70AE /* Settings.m */; };
+		6FAB6F6B197375B9009B70AE /* TMVTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB6F6A197375B9009B70AE /* TMVTimerViewController.m */; };
+		6FB1CE5F197F34A100109E96 /* Days.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1CE5E197F34A100109E96 /* Days.m */; };
+		6FB1CE62197F34A100109E96 /* AlarmItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB1CE61197F34A100109E96 /* AlarmItem.m */; };
+		6FB3ED16197DC061006509C8 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3ED15197DC061006509C8 /* Item.m */; };
+		6FB4E40018C14A300093D5F0 /* TMVNonInteractiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB4E3FF18C14A300093D5F0 /* TMVNonInteractiveView.m */; };
+		6FB7338218E641C600C21D36 /* TMVIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7338118E641C600C21D36 /* TMVIconView.m */; };
+		6FB7338518E656AC00C21D36 /* TMVOrbViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7338418E656AC00C21D36 /* TMVOrbViewCell.m */; };
+		6FB7BED7190356AB00D03A0B /* TMVQuoteViewContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7BED6190356AB00D03A0B /* TMVQuoteViewContainerView.m */; };
+		6FB7C9FA1A69D0200009E3C4 /* TNKColorPickerDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7C9F91A69D0200009E3C4 /* TNKColorPickerDotView.m */; };
+		6FBC247919F7285600DA41F3 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC247819F7285600DA41F3 /* IAPHelper.m */; };
+		6FBC247C19F7286400DA41F3 /* TMVIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC247B19F7286400DA41F3 /* TMVIAPManager.m */; };
+		6FC1754B18BAD9B400ED3808 /* TMVGlyphCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1754818BAD9B400ED3808 /* TMVGlyphCell.m */; };
+		6FC1754C18BAD9B400ED3808 /* TMVSoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1754A18BAD9B400ED3808 /* TMVSoundCell.m */; };
+		6FC1755218BAD9FB00ED3808 /* UIImage+Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1755118BAD9FB00ED3808 /* UIImage+Overlay.m */; };
+		6FC1821C189D90DB008FDE20 /* TMVClockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC1821B189D90DB008FDE20 /* TMVClockLabel.m */; };
+		6FC18228189DBC1B008FDE20 /* TMVSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC18227189DBC1B008FDE20 /* TMVSwitchCell.m */; };
+		6FC8F2A219F9D296005EF4D7 /* TMVStatusBarLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC8F2A119F9D296005EF4D7 /* TMVStatusBarLockView.m */; };
+		6FCB436F1A5C94BE00D8230C /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCB436E1A5C94BE00D8230C /* iAd.framework */; };
+		6FD52BA718E720CB006BF88E /* TMVOrbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD52BA618E720CB006BF88E /* TMVOrbView.m */; };
+		6FF7C86018D4FE81000D0D96 /* IFTTTAlphaAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C84818D4FE81000D0D96 /* IFTTTAlphaAnimation.m */; };
+		6FF7C86118D4FE81000D0D96 /* IFTTTAngleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C84A18D4FE81000D0D96 /* IFTTTAngleAnimation.m */; };
+		6FF7C86218D4FE81000D0D96 /* IFTTTAnimatedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C84C18D4FE81000D0D96 /* IFTTTAnimatedScrollViewController.m */; };
+		6FF7C86318D4FE81000D0D96 /* IFTTTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C84E18D4FE81000D0D96 /* IFTTTAnimation.m */; };
+		6FF7C86418D4FE81000D0D96 /* IFTTTAnimationFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C85018D4FE81000D0D96 /* IFTTTAnimationFrame.m */; };
+		6FF7C86518D4FE81000D0D96 /* IFTTTAnimationKeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C85218D4FE81000D0D96 /* IFTTTAnimationKeyFrame.m */; };
+		6FF7C86618D4FE81000D0D96 /* IFTTTAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C85418D4FE81000D0D96 /* IFTTTAnimator.m */; };
+		6FF7C86718D4FE81000D0D96 /* IFTTTColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C85618D4FE81000D0D96 /* IFTTTColorAnimation.m */; };
+		6FF7C86818D4FE81000D0D96 /* IFTTTFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C85818D4FE81000D0D96 /* IFTTTFrameAnimation.m */; };
+		6FF7C86918D4FE81000D0D96 /* IFTTTHideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C85A18D4FE81000D0D96 /* IFTTTHideAnimation.m */; };
+		6FF7C86D18D4FE92000D0D96 /* NSLayoutConstraint+SimpleFormatLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF7C86C18D4FE92000D0D96 /* NSLayoutConstraint+SimpleFormatLanguage.m */; };
+		6FF8411A18EF6EAB00B4AD96 /* alarm-clock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FF8411418EF6EAB00B4AD96 /* alarm-clock.mp3 */; };
+		6FF8411B18EF6EAB00B4AD96 /* Bell 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FF8411518EF6EAB00B4AD96 /* Bell 1.mp3 */; };
+		6FF8411C18EF6EAB00B4AD96 /* Bell 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FF8411618EF6EAB00B4AD96 /* Bell 2.mp3 */; };
+		6FF8411D18EF6EAB00B4AD96 /* ringing-timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FF8411718EF6EAB00B4AD96 /* ringing-timer.mp3 */; };
+		6FF8411E18EF6EAB00B4AD96 /* Mystical.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FF8411818EF6EAB00B4AD96 /* Mystical.mp3 */; };
+		6FF8411F18EF6EAB00B4AD96 /* simple-timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6FF8411918EF6EAB00B4AD96 /* simple-timer.mp3 */; };
+		6FF8412218EFA17800B4AD96 /* TMVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8412118EFA17800B4AD96 /* TMVAppDelegate.m */; };
+		6FFF1DAE18F06DCF00328895 /* TMVSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFF1DAD18F06DCF00328895 /* TMVSettingsViewController.m */; };
+		F647EEC619FD981700B7F1CA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F647EEC519FD981700B7F1CA /* StoreKit.framework */; };
+		F647EEC919FD984B00B7F1CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F647EECB19FD984B00B7F1CA /* Localizable.strings */; };
+		F662B095189C15B100BC43F1 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F662B093189C15B100BC43F1 /* UIView+AutoLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F9E828E189A043600B6B7E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F9E8260189A043600B6B7E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9E8267189A043600B6B7E5;
+			remoteInfo = Timerverse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F183C0018FF71BB00404A3E /* TMVQuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVQuoteViewController.h; sourceTree = "<group>"; };
+		6F183C0118FF71BB00404A3E /* TMVQuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVQuoteViewController.m; sourceTree = "<group>"; };
+		6F183C0318FF71F200404A3E /* TMVQuoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVQuoteCell.h; sourceTree = "<group>"; };
+		6F183C0418FF71F200404A3E /* TMVQuoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVQuoteCell.m; sourceTree = "<group>"; };
+		6F183C0618FF723300404A3E /* TMVHelixFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVHelixFlowLayout.h; sourceTree = "<group>"; };
+		6F183C0718FF723300404A3E /* TMVHelixFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVHelixFlowLayout.m; sourceTree = "<group>"; };
+		6F2E27CE189EEDA90076E4E6 /* TMVSettingsButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVSettingsButtonView.h; sourceTree = "<group>"; };
+		6F2E27CF189EEDA90076E4E6 /* TMVSettingsButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVSettingsButtonView.m; sourceTree = "<group>"; };
+		6F2E27D4189F096B0076E4E6 /* TMVFloatingBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVFloatingBehavior.h; sourceTree = "<group>"; };
+		6F2E27D5189F096B0076E4E6 /* TMVFloatingBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVFloatingBehavior.m; sourceTree = "<group>"; };
+		6F3A02DC18DFCFB20044A54F /* LRScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRScrollViewController.h; sourceTree = "<group>"; };
+		6F3A02DD18DFCFB20044A54F /* LRScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRScrollViewController.m; sourceTree = "<group>"; };
+		6F628210191AF52000D5B8FE /* TMVCounterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVCounterLabel.h; sourceTree = "<group>"; };
+		6F628211191AF52000D5B8FE /* TMVCounterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVCounterLabel.m; sourceTree = "<group>"; };
+		6F6E89DD18FA1EAD0091AF03 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		6F6E89DE18FA1EAD0091AF03 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		6F6E89DF18FA1EAD0091AF03 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		6F6E89E018FA1EAD0091AF03 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		6F6E89E118FA1EAD0091AF03 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		6F6E89E418FA1F1B0091AF03 /* TMVNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVNotificationManager.h; sourceTree = "<group>"; };
+		6F6E89E518FA1F1B0091AF03 /* TMVNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVNotificationManager.m; sourceTree = "<group>"; };
+		6F7EC5B118A0A7960073F6B8 /* TMVAlarmItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVAlarmItem.h; sourceTree = "<group>"; };
+		6F7EC5B218A0A7960073F6B8 /* TMVAlarmItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVAlarmItem.m; sourceTree = "<group>"; };
+		6F7EC5B418A0A83A0073F6B8 /* TMVAlarmItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVAlarmItemView.h; sourceTree = "<group>"; };
+		6F7EC5B518A0A83A0073F6B8 /* TMVAlarmItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVAlarmItemView.m; sourceTree = "<group>"; };
+		6F883B1318AC5A05006B9CBD /* SAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMath.h; sourceTree = "<group>"; };
+		6F883B1418AC5A05006B9CBD /* SAMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMath.m; sourceTree = "<group>"; };
+		6F8A47F518B104A400D6BDD3 /* TMVTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVTimeManager.h; sourceTree = "<group>"; };
+		6F8A47F618B104A400D6BDD3 /* TMVTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVTimeManager.m; sourceTree = "<group>"; };
+		6F95654018A7007F00F3B95D /* SKMuteSwitchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMuteSwitchDetector.h; sourceTree = "<group>"; };
+		6F95654118A7007F00F3B95D /* SKMuteSwitchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMuteSwitchDetector.m; sourceTree = "<group>"; };
+		6F9CDC0418BECDCF002ADB1E /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		6F9CDC0518BECDCF002ADB1E /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		6F9DB7E018C2A30200EC0F88 /* SAAlarmControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAlarmControl.h; sourceTree = "<group>"; };
+		6F9DB7E118C2A30200EC0F88 /* SAAlarmControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAlarmControl.m; sourceTree = "<group>"; };
+		6F9DB7E218C2A30200EC0F88 /* SATimerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATimerControl.h; sourceTree = "<group>"; };
+		6F9DB7E318C2A30200EC0F88 /* SATimerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATimerControl.m; sourceTree = "<group>"; };
+		6F9DB7F518C2A6AE00EC0F88 /* TMVQuoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVQuoteView.m; sourceTree = "<group>"; };
+		6F9DB7F618C2A6AE00EC0F88 /* TMVQuoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVQuoteView.h; sourceTree = "<group>"; };
+		6F9E8268189A043600B6B7E5 /* Timerverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timerverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9E826B189A043600B6B7E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F9E826D189A043600B6B7E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F9E826F189A043600B6B7E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F9E8273189A043600B6B7E5 /* Timerverse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timerverse-Info.plist"; sourceTree = "<group>"; };
+		6F9E8275189A043600B6B7E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F9E8277189A043600B6B7E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F9E8279189A043600B6B7E5 /* Timerverse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timerverse-Prefix.pch"; sourceTree = "<group>"; };
+		6F9E8283189A043600B6B7E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F9E8289189A043600B6B7E5 /* TimerverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9E828A189A043600B6B7E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F9E8292189A043600B6B7E5 /* TimerverseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerverseTests-Info.plist"; sourceTree = "<group>"; };
+		6F9E8294189A043600B6B7E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F9E8296189A043600B6B7E5 /* TimerverseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerverseTests.m; sourceTree = "<group>"; };
+		6F9E82A0189A04D300B6B7E5 /* AbyssView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbyssView.h; sourceTree = "<group>"; };
+		6F9E82A1189A04D300B6B7E5 /* AbyssView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbyssView.m; sourceTree = "<group>"; };
+		6F9E82A4189A04D300B6B7E5 /* TMVKickOutBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVKickOutBehavior.h; sourceTree = "<group>"; };
+		6F9E82A5189A04D300B6B7E5 /* TMVKickOutBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVKickOutBehavior.m; sourceTree = "<group>"; };
+		6F9E82A7189A04D300B6B7E5 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		6F9E82A8189A04D300B6B7E5 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		6F9E82AB189A04D300B6B7E5 /* EGOGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOGradientView.h; sourceTree = "<group>"; };
+		6F9E82AC189A04D300B6B7E5 /* EGOGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOGradientView.m; sourceTree = "<group>"; };
+		6F9E82AF189A04D300B6B7E5 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		6F9E82B0189A04D300B6B7E5 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		6F9E82B1189A04D300B6B7E5 /* TNKDisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNKDisplayLink.h; sourceTree = "<group>"; };
+		6F9E82B2189A04D300B6B7E5 /* TNKDisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNKDisplayLink.m; sourceTree = "<group>"; };
+		6F9E82B5189A04D300B6B7E5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6F9E82B8189A04D300B6B7E5 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		6F9E82B9189A04D300B6B7E5 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
+		6F9E82BB189A04D300B6B7E5 /* Alert.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alert.mp3; sourceTree = "<group>"; };
+		6F9E82BC189A04D300B6B7E5 /* Alert 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alert 2.mp3"; sourceTree = "<group>"; };
+		6F9E82BD189A04D300B6B7E5 /* Alert 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alert 3.mp3"; sourceTree = "<group>"; };
+		6F9E82BE189A04D300B6B7E5 /* Alert 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alert 4.mp3"; sourceTree = "<group>"; };
+		6F9E82BF189A04D300B6B7E5 /* Alert 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alert 5.mp3"; sourceTree = "<group>"; };
+		6F9E82C1189A04D300B6B7E5 /* Buzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Buzzer.mp3; sourceTree = "<group>"; };
+		6F9E82C2189A04D300B6B7E5 /* Cut Out.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cut Out.mp3"; sourceTree = "<group>"; };
+		6F9E82C3189A04D300B6B7E5 /* Dropped.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dropped.mp3; sourceTree = "<group>"; };
+		6F9E82C4189A04D300B6B7E5 /* Elevator Ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Elevator Ding.mp3"; sourceTree = "<group>"; };
+		6F9E82C5189A04D300B6B7E5 /* Enchanted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Enchanted.mp3; sourceTree = "<group>"; };
+		6F9E82C6189A04D300B6B7E5 /* GT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GT.mp3; sourceTree = "<group>"; };
+		6F9E82C7189A04D300B6B7E5 /* 1Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1Up.mp3; sourceTree = "<group>"; };
+		6F9E82C8189A04D300B6B7E5 /* Ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ring.mp3; sourceTree = "<group>"; };
+		6F9E82CA189A04D300B6B7E5 /* TDMScreenEdgePanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMScreenEdgePanGestureRecognizer.h; sourceTree = "<group>"; };
+		6F9E82CB189A04D300B6B7E5 /* TDMScreenEdgePanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMScreenEdgePanGestureRecognizer.m; sourceTree = "<group>"; };
+		6F9E82D2189A04D300B6B7E5 /* TMVAtmosphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVAtmosphere.h; sourceTree = "<group>"; };
+		6F9E82D3189A04D300B6B7E5 /* TMVAtmosphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVAtmosphere.m; sourceTree = "<group>"; };
+		6F9E82D6189A04D300B6B7E5 /* TMVDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVDataManager.h; sourceTree = "<group>"; };
+		6F9E82D7189A04D300B6B7E5 /* TMVDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVDataManager.m; sourceTree = "<group>"; };
+		6F9E82D8189A04D300B6B7E5 /* TMVItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVItemManager.h; sourceTree = "<group>"; };
+		6F9E82D9189A04D300B6B7E5 /* TMVItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVItemManager.m; sourceTree = "<group>"; };
+		6F9E82DA189A04D300B6B7E5 /* TMVItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVItemView.h; sourceTree = "<group>"; };
+		6F9E82DB189A04D300B6B7E5 /* TMVItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVItemView.m; sourceTree = "<group>"; };
+		6F9E82DE189A04D300B6B7E5 /* TMVSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVSoundManager.h; sourceTree = "<group>"; };
+		6F9E82E0189A04D300B6B7E5 /* TMVSoundWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVSoundWave.h; sourceTree = "<group>"; };
+		6F9E82E1189A04D300B6B7E5 /* TMVSoundWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVSoundWave.m; sourceTree = "<group>"; };
+		6F9E82E2189A04D300B6B7E5 /* TMVTimerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVTimerItem.h; sourceTree = "<group>"; };
+		6F9E82E3189A04D300B6B7E5 /* TMVTimerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVTimerItem.m; sourceTree = "<group>"; };
+		6F9E82E4189A04D300B6B7E5 /* TMVTimerItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVTimerItemView.h; sourceTree = "<group>"; };
+		6F9E82E5189A04D300B6B7E5 /* TMVTimerItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVTimerItemView.m; sourceTree = "<group>"; };
+		6F9E82E8189A04D300B6B7E5 /* TMVAppContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVAppContainerViewController.h; sourceTree = "<group>"; };
+		6F9E82E9189A04D300B6B7E5 /* TMVAppContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVAppContainerViewController.m; sourceTree = "<group>"; };
+		6F9E8324189A056C00B6B7E5 /* TMVPaperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVPaperView.h; sourceTree = "<group>"; };
+		6F9E8325189A056C00B6B7E5 /* TMVPaperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVPaperView.m; sourceTree = "<group>"; };
+		6F9E8327189A05DC00B6B7E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F9E8329189A05E200B6B7E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6FA04DCB191476C60033E2D3 /* TMVDashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVDashView.h; sourceTree = "<group>"; };
+		6FA04DCC191476C60033E2D3 /* TMVDashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVDashView.m; sourceTree = "<group>"; };
+		6FA23B51196F130A0069F8F3 /* TMVVolumeDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVVolumeDetector.h; sourceTree = "<group>"; };
+		6FA23B52196F130A0069F8F3 /* TMVVolumeDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVVolumeDetector.m; sourceTree = "<group>"; };
+		6FA24ADF18BD8A8B004D2796 /* TMVGalaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVGalaxy.h; sourceTree = "<group>"; };
+		6FA24AE018BD8A8B004D2796 /* TMVGalaxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVGalaxy.m; sourceTree = "<group>"; };
+		6FA266A118A748020023419A /* TMVStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVStatusBarView.h; sourceTree = "<group>"; };
+		6FA266A218A748020023419A /* TMVStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVStatusBarView.m; sourceTree = "<group>"; };
+		6FA32D5F18C38F4200210CF7 /* TMVNonInteractiveScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVNonInteractiveScrollView.h; sourceTree = "<group>"; };
+		6FA32D6018C38F4200210CF7 /* TMVNonInteractiveScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVNonInteractiveScrollView.m; sourceTree = "<group>"; };
+		6FA37D3518B1799A0045456F /* TMVAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVAlarmViewController.h; sourceTree = "<group>"; };
+		6FA37D3618B1799A0045456F /* TMVAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVAlarmViewController.m; sourceTree = "<group>"; };
+		6FA38A67192D87A800A035D6 /* PaintCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintCube.h; sourceTree = "<group>"; };
+		6FA38A68192D87A800A035D6 /* PaintCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintCube.m; sourceTree = "<group>"; };
+		6FA38A6A192D87B900A035D6 /* TNKCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNKCube.h; sourceTree = "<group>"; };
+		6FA38A6B192D87B900A035D6 /* TNKCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNKCube.m; sourceTree = "<group>"; };
+		6FA38A6D192D881600A035D6 /* ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFrameAccessor.m; sourceTree = "<group>"; };
+		6FA38A6E192D881600A035D6 /* ViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFrameAccessor.h; sourceTree = "<group>"; };
+		6FA38A6F192D881600A035D6 /* ScrollViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewFrameAccessor.m; sourceTree = "<group>"; };
+		6FA38A70192D881600A035D6 /* ScrollViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewFrameAccessor.h; sourceTree = "<group>"; };
+		6FA38A71192D881600A035D6 /* RectAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectAccessor.m; sourceTree = "<group>"; };
+		6FA38A72192D881600A035D6 /* RectAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectAccessor.h; sourceTree = "<group>"; };
+		6FA38A73192D881600A035D6 /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
+		6FA3984D18A2D83D009581F5 /* CounterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterItem.h; sourceTree = "<group>"; };
+		6FA3984E18A2D83D009581F5 /* CounterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterItem.m; sourceTree = "<group>"; };
+		6FA3985018A2D83D009581F5 /* TimerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerItem.h; sourceTree = "<group>"; };
+		6FA3985118A2D83D009581F5 /* TimerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerItem.m; sourceTree = "<group>"; };
+		6FA54F0F18DE6AF500E3011C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6FA6CE8919723AF100629AEE /* TMVStatusBarGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVStatusBarGroupView.h; sourceTree = "<group>"; };
+		6FA6CE8A19723AF100629AEE /* TMVStatusBarGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVStatusBarGroupView.m; sourceTree = "<group>"; };
+		6FA82A0118DF36D600D72AB4 /* TMVAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVAboutViewController.h; sourceTree = "<group>"; };
+		6FA82A0218DF36D600D72AB4 /* TMVAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVAboutViewController.m; sourceTree = "<group>"; };
+		6FA82A0718DF659400D72AB4 /* TMVSettingsContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVSettingsContainerController.h; sourceTree = "<group>"; };
+		6FA82A0818DF659400D72AB4 /* TMVSettingsContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVSettingsContainerController.m; sourceTree = "<group>"; };
+		6FA83E0A190D4B77004CFDF4 /* waveTest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waveTest.mp3; sourceTree = "<group>"; };
+		6FA98F4719396A0F003214C0 /* TMVTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVTutorialViewController.h; sourceTree = "<group>"; };
+		6FA98F4819396A0F003214C0 /* TMVTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVTutorialViewController.m; sourceTree = "<group>"; };
+		6FA98F4A19396A1C003214C0 /* TNKArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNKArrayDataSource.h; sourceTree = "<group>"; };
+		6FA98F4B19396A1C003214C0 /* TNKArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNKArrayDataSource.m; sourceTree = "<group>"; };
+		6FA98F4D19396A2F003214C0 /* TMVSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVSoundManager.m; sourceTree = "<group>"; };
+		6FA98F4F19396A4A003214C0 /* iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
+		6FAB6F6019733216009B70AE /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		6FAB6F6119733216009B70AE /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		6FAB6F69197375B9009B70AE /* TMVTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVTimerViewController.h; sourceTree = "<group>"; };
+		6FAB6F6A197375B9009B70AE /* TMVTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVTimerViewController.m; sourceTree = "<group>"; };
+		6FB1CE5D197F34A100109E96 /* Days.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Days.h; sourceTree = "<group>"; };
+		6FB1CE5E197F34A100109E96 /* Days.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Days.m; sourceTree = "<group>"; };
+		6FB1CE60197F34A100109E96 /* AlarmItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmItem.h; sourceTree = "<group>"; };
+		6FB1CE61197F34A100109E96 /* AlarmItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmItem.m; sourceTree = "<group>"; };
+		6FB3ED14197DC061006509C8 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		6FB3ED15197DC061006509C8 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		6FB4E3FE18C14A300093D5F0 /* TMVNonInteractiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVNonInteractiveView.h; sourceTree = "<group>"; };
+		6FB4E3FF18C14A300093D5F0 /* TMVNonInteractiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVNonInteractiveView.m; sourceTree = "<group>"; };
+		6FB7338018E641C600C21D36 /* TMVIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVIconView.h; sourceTree = "<group>"; };
+		6FB7338118E641C600C21D36 /* TMVIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVIconView.m; sourceTree = "<group>"; };
+		6FB7338318E656AC00C21D36 /* TMVOrbViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVOrbViewCell.h; sourceTree = "<group>"; };
+		6FB7338418E656AC00C21D36 /* TMVOrbViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVOrbViewCell.m; sourceTree = "<group>"; };
+		6FB7BED5190356AB00D03A0B /* TMVQuoteViewContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVQuoteViewContainerView.h; sourceTree = "<group>"; };
+		6FB7BED6190356AB00D03A0B /* TMVQuoteViewContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVQuoteViewContainerView.m; sourceTree = "<group>"; };
+		6FB7C9F81A69D0200009E3C4 /* TNKColorPickerDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNKColorPickerDotView.h; sourceTree = "<group>"; };
+		6FB7C9F91A69D0200009E3C4 /* TNKColorPickerDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNKColorPickerDotView.m; sourceTree = "<group>"; };
+		6FBC247719F7285600DA41F3 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		6FBC247819F7285600DA41F3 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		6FBC247A19F7286400DA41F3 /* TMVIAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVIAPManager.h; sourceTree = "<group>"; };
+		6FBC247B19F7286400DA41F3 /* TMVIAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVIAPManager.m; sourceTree = "<group>"; };
+		6FC1754718BAD9B400ED3808 /* TMVGlyphCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVGlyphCell.h; sourceTree = "<group>"; };
+		6FC1754818BAD9B400ED3808 /* TMVGlyphCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVGlyphCell.m; sourceTree = "<group>"; };
+		6FC1754918BAD9B400ED3808 /* TMVSoundCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVSoundCell.h; sourceTree = "<group>"; };
+		6FC1754A18BAD9B400ED3808 /* TMVSoundCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVSoundCell.m; sourceTree = "<group>"; };
+		6FC1755018BAD9FB00ED3808 /* UIImage+Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Overlay.h"; sourceTree = "<group>"; };
+		6FC1755118BAD9FB00ED3808 /* UIImage+Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Overlay.m"; sourceTree = "<group>"; };
+		6FC1821A189D90DB008FDE20 /* TMVClockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVClockLabel.h; sourceTree = "<group>"; };
+		6FC1821B189D90DB008FDE20 /* TMVClockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVClockLabel.m; sourceTree = "<group>"; };
+		6FC18226189DBC1B008FDE20 /* TMVSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVSwitchCell.h; sourceTree = "<group>"; };
+		6FC18227189DBC1B008FDE20 /* TMVSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVSwitchCell.m; sourceTree = "<group>"; };
+		6FC8F2A019F9D296005EF4D7 /* TMVStatusBarLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVStatusBarLockView.h; sourceTree = "<group>"; };
+		6FC8F2A119F9D296005EF4D7 /* TMVStatusBarLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVStatusBarLockView.m; sourceTree = "<group>"; };
+		6FCB436E1A5C94BE00D8230C /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		6FD52BA518E720CB006BF88E /* TMVOrbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVOrbView.h; sourceTree = "<group>"; };
+		6FD52BA618E720CB006BF88E /* TMVOrbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVOrbView.m; sourceTree = "<group>"; };
+		6FF7C84718D4FE81000D0D96 /* IFTTTAlphaAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTAlphaAnimation.h; sourceTree = "<group>"; };
+		6FF7C84818D4FE81000D0D96 /* IFTTTAlphaAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTAlphaAnimation.m; sourceTree = "<group>"; };
+		6FF7C84918D4FE81000D0D96 /* IFTTTAngleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTAngleAnimation.h; sourceTree = "<group>"; };
+		6FF7C84A18D4FE81000D0D96 /* IFTTTAngleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTAngleAnimation.m; sourceTree = "<group>"; };
+		6FF7C84B18D4FE81000D0D96 /* IFTTTAnimatedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTAnimatedScrollViewController.h; sourceTree = "<group>"; };
+		6FF7C84C18D4FE81000D0D96 /* IFTTTAnimatedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTAnimatedScrollViewController.m; sourceTree = "<group>"; };
+		6FF7C84D18D4FE81000D0D96 /* IFTTTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTAnimation.h; sourceTree = "<group>"; };
+		6FF7C84E18D4FE81000D0D96 /* IFTTTAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTAnimation.m; sourceTree = "<group>"; };
+		6FF7C84F18D4FE81000D0D96 /* IFTTTAnimationFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTAnimationFrame.h; sourceTree = "<group>"; };
+		6FF7C85018D4FE81000D0D96 /* IFTTTAnimationFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTAnimationFrame.m; sourceTree = "<group>"; };
+		6FF7C85118D4FE81000D0D96 /* IFTTTAnimationKeyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTAnimationKeyFrame.h; sourceTree = "<group>"; };
+		6FF7C85218D4FE81000D0D96 /* IFTTTAnimationKeyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTAnimationKeyFrame.m; sourceTree = "<group>"; };
+		6FF7C85318D4FE81000D0D96 /* IFTTTAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTAnimator.h; sourceTree = "<group>"; };
+		6FF7C85418D4FE81000D0D96 /* IFTTTAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTAnimator.m; sourceTree = "<group>"; };
+		6FF7C85518D4FE81000D0D96 /* IFTTTColorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTColorAnimation.h; sourceTree = "<group>"; };
+		6FF7C85618D4FE81000D0D96 /* IFTTTColorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTColorAnimation.m; sourceTree = "<group>"; };
+		6FF7C85718D4FE81000D0D96 /* IFTTTFrameAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTFrameAnimation.h; sourceTree = "<group>"; };
+		6FF7C85818D4FE81000D0D96 /* IFTTTFrameAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTFrameAnimation.m; sourceTree = "<group>"; };
+		6FF7C85918D4FE81000D0D96 /* IFTTTHideAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTHideAnimation.h; sourceTree = "<group>"; };
+		6FF7C85A18D4FE81000D0D96 /* IFTTTHideAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTHideAnimation.m; sourceTree = "<group>"; };
+		6FF7C85B18D4FE81000D0D96 /* IFTTTJazzHands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTJazzHands.h; sourceTree = "<group>"; };
+		6FF7C86B18D4FE92000D0D96 /* NSLayoutConstraint+SimpleFormatLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+SimpleFormatLanguage.h"; sourceTree = "<group>"; };
+		6FF7C86C18D4FE92000D0D96 /* NSLayoutConstraint+SimpleFormatLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+SimpleFormatLanguage.m"; sourceTree = "<group>"; };
+		6FF8411418EF6EAB00B4AD96 /* alarm-clock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "alarm-clock.mp3"; sourceTree = "<group>"; };
+		6FF8411518EF6EAB00B4AD96 /* Bell 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bell 1.mp3"; sourceTree = "<group>"; };
+		6FF8411618EF6EAB00B4AD96 /* Bell 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bell 2.mp3"; sourceTree = "<group>"; };
+		6FF8411718EF6EAB00B4AD96 /* ringing-timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ringing-timer.mp3"; sourceTree = "<group>"; };
+		6FF8411818EF6EAB00B4AD96 /* Mystical.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mystical.mp3; sourceTree = "<group>"; };
+		6FF8411918EF6EAB00B4AD96 /* simple-timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "simple-timer.mp3"; sourceTree = "<group>"; };
+		6FF8412018EFA17800B4AD96 /* TMVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVAppDelegate.h; sourceTree = "<group>"; };
+		6FF8412118EFA17800B4AD96 /* TMVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVAppDelegate.m; sourceTree = "<group>"; };
+		6FFF1DAC18F06DCF00328895 /* TMVSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMVSettingsViewController.h; sourceTree = "<group>"; };
+		6FFF1DAD18F06DCF00328895 /* TMVSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMVSettingsViewController.m; sourceTree = "<group>"; };
+		F647EEC519FD981700B7F1CA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F647EECA19FD984B00B7F1CA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F647EECC19FD984C00B7F1CA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EECD19FD984C00B7F1CA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EECE19FD986000B7F1CA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F647EECF19FD986000B7F1CA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EED019FD986000B7F1CA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EED419FD987600B7F1CA /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F647EED519FD987600B7F1CA /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EED619FD987600B7F1CA /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EED719FD988100B7F1CA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F647EED819FD988100B7F1CA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EED919FD988100B7F1CA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EEDA19FD988B00B7F1CA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F647EEDB19FD988B00B7F1CA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EEDC19FD988B00B7F1CA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EEDD19FD989600B7F1CA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F647EEDE19FD989600B7F1CA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F647EEDF19FD989600B7F1CA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F647EEE019FD9D6200B7F1CA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F647EEE119FD9D6300B7F1CA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F647EEE219FD9D6300B7F1CA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F662B093189C15B100BC43F1 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		F662B094189C15B100BC43F1 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F9E8265189A043600B6B7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FCB436F1A5C94BE00D8230C /* iAd.framework in Frameworks */,
+				6FA54F1018DE6AF500E3011C /* MessageUI.framework in Frameworks */,
+				F647EEC619FD981700B7F1CA /* StoreKit.framework in Frameworks */,
+				6F9E832A189A05E200B6B7E5 /* CoreData.framework in Frameworks */,
+				6F9E8328189A05DC00B6B7E5 /* QuartzCore.framework in Frameworks */,
+				6F9E826E189A043600B6B7E5 /* CoreGraphics.framework in Frameworks */,
+				6F9E8270189A043600B6B7E5 /* UIKit.framework in Frameworks */,
+				6F9E826C189A043600B6B7E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9E8286189A043600B6B7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9E828B189A043600B6B7E5 /* XCTest.framework in Frameworks */,
+				6F9E828D189A043600B6B7E5 /* UIKit.framework in Frameworks */,
+				6F9E828C189A043600B6B7E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F6E89DB18FA1E9F0091AF03 /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				6F6E89DD18FA1EAD0091AF03 /* FBShimmering.h */,
+				6F6E89DE18FA1EAD0091AF03 /* FBShimmeringLayer.h */,
+				6F6E89DF18FA1EAD0091AF03 /* FBShimmeringLayer.m */,
+				6F6E89E018FA1EAD0091AF03 /* FBShimmeringView.h */,
+				6F6E89E118FA1EAD0091AF03 /* FBShimmeringView.m */,
+			);
+			name = FBShimmering;
+			sourceTree = "<group>";
+		};
+		6F9E825F189A043600B6B7E5 = {
+			isa = PBXGroup;
+			children = (
+				6F9E8271189A043600B6B7E5 /* Timerverse */,
+				6F9E8290189A043600B6B7E5 /* TimerverseTests */,
+				6F9E826A189A043600B6B7E5 /* Frameworks */,
+				6F9E8269189A043600B6B7E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F9E8269189A043600B6B7E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E8268189A043600B6B7E5 /* Timerverse.app */,
+				6F9E8289189A043600B6B7E5 /* TimerverseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F9E826A189A043600B6B7E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FCB436E1A5C94BE00D8230C /* iAd.framework */,
+				F647EEC519FD981700B7F1CA /* StoreKit.framework */,
+				6FA54F0F18DE6AF500E3011C /* MessageUI.framework */,
+				6F9E8329189A05E200B6B7E5 /* CoreData.framework */,
+				6F9E8327189A05DC00B6B7E5 /* QuartzCore.framework */,
+				6F9E826B189A043600B6B7E5 /* Foundation.framework */,
+				6F9E826D189A043600B6B7E5 /* CoreGraphics.framework */,
+				6F9E826F189A043600B6B7E5 /* UIKit.framework */,
+				6F9E828A189A043600B6B7E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F9E8271189A043600B6B7E5 /* Timerverse */ = {
+			isa = PBXGroup;
+			children = (
+				6FBC247619F7284800DA41F3 /* StoreKit */,
+				6FBFA9F2189A0A2C007F5B7D /* Core Data */,
+				6FBFA9F1189A0A0A007F5B7D /* Dynamic Behaviors */,
+				6FBFA9F4189A0AD4007F5B7D /* Subclasses */,
+				6FBFA9F3189A0AB4007F5B7D /* Categories */,
+				6F9E82BA189A04D300B6B7E5 /* Sounds */,
+				6FBFA9F7189A0B36007F5B7D /* Managers */,
+				6FBFA9F6189A0B25007F5B7D /* View Controllers */,
+				6FA83E11190D517A004CFDF4 /* Cells */,
+				6FBFA9F5189A0B11007F5B7D /* Item Classes */,
+				6F9E8283189A043600B6B7E5 /* Images.xcassets */,
+				6F9E8272189A043600B6B7E5 /* Supporting Files */,
+			);
+			path = Timerverse;
+			sourceTree = "<group>";
+		};
+		6F9E8272189A043600B6B7E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F647EECB19FD984B00B7F1CA /* Localizable.strings */,
+				6F9E8273189A043600B6B7E5 /* Timerverse-Info.plist */,
+				6F9E8274189A043600B6B7E5 /* InfoPlist.strings */,
+				6F9E8277189A043600B6B7E5 /* main.m */,
+				6F9E8279189A043600B6B7E5 /* Timerverse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F9E8290189A043600B6B7E5 /* TimerverseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E8296189A043600B6B7E5 /* TimerverseTests.m */,
+				6F9E8291189A043600B6B7E5 /* Supporting Files */,
+			);
+			path = TimerverseTests;
+			sourceTree = "<group>";
+		};
+		6F9E8291189A043600B6B7E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E8292189A043600B6B7E5 /* TimerverseTests-Info.plist */,
+				6F9E8293189A043600B6B7E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F9E82BA189A04D300B6B7E5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E82BB189A04D300B6B7E5 /* Alert.mp3 */,
+				6F9E82BC189A04D300B6B7E5 /* Alert 2.mp3 */,
+				6F9E82BD189A04D300B6B7E5 /* Alert 3.mp3 */,
+				6F9E82BE189A04D300B6B7E5 /* Alert 4.mp3 */,
+				6F9E82BF189A04D300B6B7E5 /* Alert 5.mp3 */,
+				6F9E82C1189A04D300B6B7E5 /* Buzzer.mp3 */,
+				6FA83E0A190D4B77004CFDF4 /* waveTest.mp3 */,
+				6F9E82C2189A04D300B6B7E5 /* Cut Out.mp3 */,
+				6F9E82C3189A04D300B6B7E5 /* Dropped.mp3 */,
+				6F9E82C4189A04D300B6B7E5 /* Elevator Ding.mp3 */,
+				6F9E82C5189A04D300B6B7E5 /* Enchanted.mp3 */,
+				6F9E82C6189A04D300B6B7E5 /* GT.mp3 */,
+				6F9E82C7189A04D300B6B7E5 /* 1Up.mp3 */,
+				6F9E82C8189A04D300B6B7E5 /* Ring.mp3 */,
+				6FF8411418EF6EAB00B4AD96 /* alarm-clock.mp3 */,
+				6FF8411518EF6EAB00B4AD96 /* Bell 1.mp3 */,
+				6FF8411618EF6EAB00B4AD96 /* Bell 2.mp3 */,
+				6FF8411718EF6EAB00B4AD96 /* ringing-timer.mp3 */,
+				6FF8411818EF6EAB00B4AD96 /* Mystical.mp3 */,
+				6FF8411918EF6EAB00B4AD96 /* simple-timer.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		6FA83E0C190D4FC6004CFDF4 /* Orb View */ = {
+			isa = PBXGroup;
+			children = (
+				6FD52BA518E720CB006BF88E /* TMVOrbView.h */,
+				6FD52BA618E720CB006BF88E /* TMVOrbView.m */,
+				6FB7338318E656AC00C21D36 /* TMVOrbViewCell.h */,
+				6FB7338418E656AC00C21D36 /* TMVOrbViewCell.m */,
+			);
+			name = "Orb View";
+			sourceTree = "<group>";
+		};
+		6FA83E0D190D50D9004CFDF4 /* CounterLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6F628210191AF52000D5B8FE /* TMVCounterLabel.h */,
+				6F628211191AF52000D5B8FE /* TMVCounterLabel.m */,
+			);
+			name = CounterLabel;
+			sourceTree = "<group>";
+		};
+		6FA83E0E190D50E3004CFDF4 /* SAControls */ = {
+			isa = PBXGroup;
+			children = (
+				6F9DB7E018C2A30200EC0F88 /* SAAlarmControl.h */,
+				6F9DB7E118C2A30200EC0F88 /* SAAlarmControl.m */,
+				6F9DB7E218C2A30200EC0F88 /* SATimerControl.h */,
+				6F9DB7E318C2A30200EC0F88 /* SATimerControl.m */,
+				6F883B1318AC5A05006B9CBD /* SAMath.h */,
+				6F883B1418AC5A05006B9CBD /* SAMath.m */,
+			);
+			name = SAControls;
+			sourceTree = "<group>";
+		};
+		6FA83E0F190D510C004CFDF4 /* QuoteViews */ = {
+			isa = PBXGroup;
+			children = (
+				6F183C0618FF723300404A3E /* TMVHelixFlowLayout.h */,
+				6F183C0718FF723300404A3E /* TMVHelixFlowLayout.m */,
+				6F9DB7F618C2A6AE00EC0F88 /* TMVQuoteView.h */,
+				6F9DB7F518C2A6AE00EC0F88 /* TMVQuoteView.m */,
+				6FB7BED5190356AB00D03A0B /* TMVQuoteViewContainerView.h */,
+				6FB7BED6190356AB00D03A0B /* TMVQuoteViewContainerView.m */,
+				6F183C0018FF71BB00404A3E /* TMVQuoteViewController.h */,
+				6F183C0118FF71BB00404A3E /* TMVQuoteViewController.m */,
+				6F183C0318FF71F200404A3E /* TMVQuoteCell.h */,
+				6F183C0418FF71F200404A3E /* TMVQuoteCell.m */,
+			);
+			name = QuoteViews;
+			sourceTree = "<group>";
+		};
+		6FA83E10190D5164004CFDF4 /* Thinkr Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6FA38A67192D87A800A035D6 /* PaintCube.h */,
+				6FA38A68192D87A800A035D6 /* PaintCube.m */,
+				6FA38A6A192D87B900A035D6 /* TNKCube.h */,
+				6FA38A6B192D87B900A035D6 /* TNKCube.m */,
+				6F9E82B1189A04D300B6B7E5 /* TNKDisplayLink.h */,
+				6F9E82B2189A04D300B6B7E5 /* TNKDisplayLink.m */,
+				6F3A02DC18DFCFB20044A54F /* LRScrollViewController.h */,
+				6F3A02DD18DFCFB20044A54F /* LRScrollViewController.m */,
+				6FB7C9F81A69D0200009E3C4 /* TNKColorPickerDotView.h */,
+				6FB7C9F91A69D0200009E3C4 /* TNKColorPickerDotView.m */,
+			);
+			name = "Thinkr Classes";
+			sourceTree = "<group>";
+		};
+		6FA83E11190D517A004CFDF4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6FC18226189DBC1B008FDE20 /* TMVSwitchCell.h */,
+				6FC18227189DBC1B008FDE20 /* TMVSwitchCell.m */,
+				6FC1754718BAD9B400ED3808 /* TMVGlyphCell.h */,
+				6FC1754818BAD9B400ED3808 /* TMVGlyphCell.m */,
+				6FC1754918BAD9B400ED3808 /* TMVSoundCell.h */,
+				6FC1754A18BAD9B400ED3808 /* TMVSoundCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		6FBC247619F7284800DA41F3 /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				6FBC247719F7285600DA41F3 /* IAPHelper.h */,
+				6FBC247819F7285600DA41F3 /* IAPHelper.m */,
+			);
+			name = StoreKit;
+			sourceTree = "<group>";
+		};
+		6FBFA9F1189A0A0A007F5B7D /* Dynamic Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E82A4189A04D300B6B7E5 /* TMVKickOutBehavior.h */,
+				6F9E82A5189A04D300B6B7E5 /* TMVKickOutBehavior.m */,
+				6F2E27D4189F096B0076E4E6 /* TMVFloatingBehavior.h */,
+				6F2E27D5189F096B0076E4E6 /* TMVFloatingBehavior.m */,
+			);
+			name = "Dynamic Behaviors";
+			sourceTree = "<group>";
+		};
+		6FBFA9F2189A0A2C007F5B7D /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E82B4189A04D300B6B7E5 /* Model.xcdatamodeld */,
+				6FB1CE60197F34A100109E96 /* AlarmItem.h */,
+				6FB1CE61197F34A100109E96 /* AlarmItem.m */,
+				6FB1CE5D197F34A100109E96 /* Days.h */,
+				6FB1CE5E197F34A100109E96 /* Days.m */,
+				6FB3ED14197DC061006509C8 /* Item.h */,
+				6FB3ED15197DC061006509C8 /* Item.m */,
+				6FAB6F6019733216009B70AE /* Settings.h */,
+				6FAB6F6119733216009B70AE /* Settings.m */,
+				6FA3985018A2D83D009581F5 /* TimerItem.h */,
+				6FA3985118A2D83D009581F5 /* TimerItem.m */,
+				6FA3984D18A2D83D009581F5 /* CounterItem.h */,
+				6FA3984E18A2D83D009581F5 /* CounterItem.m */,
+				6F9E82A7189A04D300B6B7E5 /* Color.h */,
+				6F9E82A8189A04D300B6B7E5 /* Color.m */,
+				6F9E82AF189A04D300B6B7E5 /* Location.h */,
+				6F9E82B0189A04D300B6B7E5 /* Location.m */,
+				6F9E82B8189A04D300B6B7E5 /* Sound.h */,
+				6F9E82B9189A04D300B6B7E5 /* Sound.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		6FBFA9F3189A0AB4007F5B7D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7C86B18D4FE92000D0D96 /* NSLayoutConstraint+SimpleFormatLanguage.h */,
+				6FF7C86C18D4FE92000D0D96 /* NSLayoutConstraint+SimpleFormatLanguage.m */,
+				6F9CDC0418BECDCF002ADB1E /* UIColor+Additions.h */,
+				6F9CDC0518BECDCF002ADB1E /* UIColor+Additions.m */,
+				6FC1755018BAD9FB00ED3808 /* UIImage+Overlay.h */,
+				6FC1755118BAD9FB00ED3808 /* UIImage+Overlay.m */,
+				F662B093189C15B100BC43F1 /* UIView+AutoLayout.m */,
+				F662B094189C15B100BC43F1 /* UIView+AutoLayout.h */,
+				6FA38A6D192D881600A035D6 /* ViewFrameAccessor.m */,
+				6FA38A6E192D881600A035D6 /* ViewFrameAccessor.h */,
+				6FA38A6F192D881600A035D6 /* ScrollViewFrameAccessor.m */,
+				6FA38A70192D881600A035D6 /* ScrollViewFrameAccessor.h */,
+				6FA38A71192D881600A035D6 /* RectAccessor.m */,
+				6FA38A72192D881600A035D6 /* RectAccessor.h */,
+				6FA38A73192D881600A035D6 /* FrameAccessor.h */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		6FBFA9F4189A0AD4007F5B7D /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7C84618D4FE81000D0D96 /* JazzHands */,
+				6F6E89DB18FA1E9F0091AF03 /* FBShimmering */,
+				6FA83E0E190D50E3004CFDF4 /* SAControls */,
+				6FA83E0D190D50D9004CFDF4 /* CounterLabel */,
+				6FA83E0C190D4FC6004CFDF4 /* Orb View */,
+				6FA83E10190D5164004CFDF4 /* Thinkr Classes */,
+				6FA83E0F190D510C004CFDF4 /* QuoteViews */,
+				6F9E82D2189A04D300B6B7E5 /* TMVAtmosphere.h */,
+				6F9E82D3189A04D300B6B7E5 /* TMVAtmosphere.m */,
+				6FA24ADF18BD8A8B004D2796 /* TMVGalaxy.h */,
+				6FA24AE018BD8A8B004D2796 /* TMVGalaxy.m */,
+				6F9E82A0189A04D300B6B7E5 /* AbyssView.h */,
+				6F9E82A1189A04D300B6B7E5 /* AbyssView.m */,
+				6FA266A118A748020023419A /* TMVStatusBarView.h */,
+				6FA266A218A748020023419A /* TMVStatusBarView.m */,
+				6FA6CE8919723AF100629AEE /* TMVStatusBarGroupView.h */,
+				6FA6CE8A19723AF100629AEE /* TMVStatusBarGroupView.m */,
+				6FC8F2A019F9D296005EF4D7 /* TMVStatusBarLockView.h */,
+				6FC8F2A119F9D296005EF4D7 /* TMVStatusBarLockView.m */,
+				6FC1821A189D90DB008FDE20 /* TMVClockLabel.h */,
+				6FC1821B189D90DB008FDE20 /* TMVClockLabel.m */,
+				6F2E27CE189EEDA90076E4E6 /* TMVSettingsButtonView.h */,
+				6F2E27CF189EEDA90076E4E6 /* TMVSettingsButtonView.m */,
+				6F9E82E0189A04D300B6B7E5 /* TMVSoundWave.h */,
+				6F9E82E1189A04D300B6B7E5 /* TMVSoundWave.m */,
+				6FB7338018E641C600C21D36 /* TMVIconView.h */,
+				6FB7338118E641C600C21D36 /* TMVIconView.m */,
+				6FA04DCB191476C60033E2D3 /* TMVDashView.h */,
+				6FA04DCC191476C60033E2D3 /* TMVDashView.m */,
+				6F9E82AB189A04D300B6B7E5 /* EGOGradientView.h */,
+				6F9E82AC189A04D300B6B7E5 /* EGOGradientView.m */,
+				6F9E8324189A056C00B6B7E5 /* TMVPaperView.h */,
+				6F9E8325189A056C00B6B7E5 /* TMVPaperView.m */,
+				6FB4E3FE18C14A300093D5F0 /* TMVNonInteractiveView.h */,
+				6FB4E3FF18C14A300093D5F0 /* TMVNonInteractiveView.m */,
+				6FA32D5F18C38F4200210CF7 /* TMVNonInteractiveScrollView.h */,
+				6FA32D6018C38F4200210CF7 /* TMVNonInteractiveScrollView.m */,
+				6F95654018A7007F00F3B95D /* SKMuteSwitchDetector.h */,
+				6F95654118A7007F00F3B95D /* SKMuteSwitchDetector.m */,
+				6F9E82CA189A04D300B6B7E5 /* TDMScreenEdgePanGestureRecognizer.h */,
+				6F9E82CB189A04D300B6B7E5 /* TDMScreenEdgePanGestureRecognizer.m */,
+				6FA98F4A19396A1C003214C0 /* TNKArrayDataSource.h */,
+				6FA98F4B19396A1C003214C0 /* TNKArrayDataSource.m */,
+				6FA23B51196F130A0069F8F3 /* TMVVolumeDetector.h */,
+				6FA23B52196F130A0069F8F3 /* TMVVolumeDetector.m */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		6FBFA9F5189A0B11007F5B7D /* Item Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E82E2189A04D300B6B7E5 /* TMVTimerItem.h */,
+				6F9E82E3189A04D300B6B7E5 /* TMVTimerItem.m */,
+				6F7EC5B118A0A7960073F6B8 /* TMVAlarmItem.h */,
+				6F7EC5B218A0A7960073F6B8 /* TMVAlarmItem.m */,
+				6F9E82DA189A04D300B6B7E5 /* TMVItemView.h */,
+				6F9E82DB189A04D300B6B7E5 /* TMVItemView.m */,
+				6F9E82E4189A04D300B6B7E5 /* TMVTimerItemView.h */,
+				6F9E82E5189A04D300B6B7E5 /* TMVTimerItemView.m */,
+				6F7EC5B418A0A83A0073F6B8 /* TMVAlarmItemView.h */,
+				6F7EC5B518A0A83A0073F6B8 /* TMVAlarmItemView.m */,
+			);
+			name = "Item Classes";
+			sourceTree = "<group>";
+		};
+		6FBFA9F6189A0B25007F5B7D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6FA98F4F19396A4A003214C0 /* iPhone_Storyboard.storyboard */,
+				6FF8412018EFA17800B4AD96 /* TMVAppDelegate.h */,
+				6FF8412118EFA17800B4AD96 /* TMVAppDelegate.m */,
+				6F9E82E8189A04D300B6B7E5 /* TMVAppContainerViewController.h */,
+				6F9E82E9189A04D300B6B7E5 /* TMVAppContainerViewController.m */,
+				6FA37D3518B1799A0045456F /* TMVAlarmViewController.h */,
+				6FA37D3618B1799A0045456F /* TMVAlarmViewController.m */,
+				6FAB6F69197375B9009B70AE /* TMVTimerViewController.h */,
+				6FAB6F6A197375B9009B70AE /* TMVTimerViewController.m */,
+				6FA82A0718DF659400D72AB4 /* TMVSettingsContainerController.h */,
+				6FA82A0818DF659400D72AB4 /* TMVSettingsContainerController.m */,
+				6FFF1DAC18F06DCF00328895 /* TMVSettingsViewController.h */,
+				6FFF1DAD18F06DCF00328895 /* TMVSettingsViewController.m */,
+				6FA82A0118DF36D600D72AB4 /* TMVAboutViewController.h */,
+				6FA82A0218DF36D600D72AB4 /* TMVAboutViewController.m */,
+				6FA98F4719396A0F003214C0 /* TMVTutorialViewController.h */,
+				6FA98F4819396A0F003214C0 /* TMVTutorialViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6FBFA9F7189A0B36007F5B7D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6FBC247A19F7286400DA41F3 /* TMVIAPManager.h */,
+				6FBC247B19F7286400DA41F3 /* TMVIAPManager.m */,
+				6F9E82D6189A04D300B6B7E5 /* TMVDataManager.h */,
+				6F9E82D7189A04D300B6B7E5 /* TMVDataManager.m */,
+				6F9E82D8189A04D300B6B7E5 /* TMVItemManager.h */,
+				6F9E82D9189A04D300B6B7E5 /* TMVItemManager.m */,
+				6F9E82DE189A04D300B6B7E5 /* TMVSoundManager.h */,
+				6FA98F4D19396A2F003214C0 /* TMVSoundManager.m */,
+				6F8A47F518B104A400D6BDD3 /* TMVTimeManager.h */,
+				6F8A47F618B104A400D6BDD3 /* TMVTimeManager.m */,
+				6F6E89E418FA1F1B0091AF03 /* TMVNotificationManager.h */,
+				6F6E89E518FA1F1B0091AF03 /* TMVNotificationManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		6FF7C84618D4FE81000D0D96 /* JazzHands */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7C84718D4FE81000D0D96 /* IFTTTAlphaAnimation.h */,
+				6FF7C84818D4FE81000D0D96 /* IFTTTAlphaAnimation.m */,
+				6FF7C84918D4FE81000D0D96 /* IFTTTAngleAnimation.h */,
+				6FF7C84A18D4FE81000D0D96 /* IFTTTAngleAnimation.m */,
+				6FF7C84B18D4FE81000D0D96 /* IFTTTAnimatedScrollViewController.h */,
+				6FF7C84C18D4FE81000D0D96 /* IFTTTAnimatedScrollViewController.m */,
+				6FF7C84D18D4FE81000D0D96 /* IFTTTAnimation.h */,
+				6FF7C84E18D4FE81000D0D96 /* IFTTTAnimation.m */,
+				6FF7C84F18D4FE81000D0D96 /* IFTTTAnimationFrame.h */,
+				6FF7C85018D4FE81000D0D96 /* IFTTTAnimationFrame.m */,
+				6FF7C85118D4FE81000D0D96 /* IFTTTAnimationKeyFrame.h */,
+				6FF7C85218D4FE81000D0D96 /* IFTTTAnimationKeyFrame.m */,
+				6FF7C85318D4FE81000D0D96 /* IFTTTAnimator.h */,
+				6FF7C85418D4FE81000D0D96 /* IFTTTAnimator.m */,
+				6FF7C85518D4FE81000D0D96 /* IFTTTColorAnimation.h */,
+				6FF7C85618D4FE81000D0D96 /* IFTTTColorAnimation.m */,
+				6FF7C85718D4FE81000D0D96 /* IFTTTFrameAnimation.h */,
+				6FF7C85818D4FE81000D0D96 /* IFTTTFrameAnimation.m */,
+				6FF7C85918D4FE81000D0D96 /* IFTTTHideAnimation.h */,
+				6FF7C85A18D4FE81000D0D96 /* IFTTTHideAnimation.m */,
+				6FF7C85B18D4FE81000D0D96 /* IFTTTJazzHands.h */,
+			);
+			path = JazzHands;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F9E8267189A043600B6B7E5 /* Timerverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9E829A189A043600B6B7E5 /* Build configuration list for PBXNativeTarget "Timerverse" */;
+			buildPhases = (
+				6F9E8264189A043600B6B7E5 /* Sources */,
+				6F9E8265189A043600B6B7E5 /* Frameworks */,
+				6F9E8266189A043600B6B7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timerverse;
+			productName = Timerverse;
+			productReference = 6F9E8268189A043600B6B7E5 /* Timerverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F9E8288189A043600B6B7E5 /* TimerverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9E829D189A043600B6B7E5 /* Build configuration list for PBXNativeTarget "TimerverseTests" */;
+			buildPhases = (
+				6F9E8285189A043600B6B7E5 /* Sources */,
+				6F9E8286189A043600B6B7E5 /* Frameworks */,
+				6F9E8287189A043600B6B7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F9E828F189A043600B6B7E5 /* PBXTargetDependency */,
+			);
+			name = TimerverseTests;
+			productName = TimerverseTests;
+			productReference = 6F9E8289189A043600B6B7E5 /* TimerverseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F9E8260189A043600B6B7E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TMV;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Thinkr;
+				TargetAttributes = {
+					6F9E8267189A043600B6B7E5 = {
+						DevelopmentTeam = 49Q63X4R6X;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					6F9E8288189A043600B6B7E5 = {
+						TestTargetID = 6F9E8267189A043600B6B7E5;
+					};
+				};
+			};
+			buildConfigurationList = 6F9E8263189A043600B6B7E5 /* Build configuration list for PBXProject "Timerverse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				de,
+				it,
+				ja,
+				pt,
+				"zh-Hans",
+				fr,
+			);
+			mainGroup = 6F9E825F189A043600B6B7E5;
+			productRefGroup = 6F9E8269189A043600B6B7E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F9E8267189A043600B6B7E5 /* Timerverse */,
+				6F9E8288189A043600B6B7E5 /* TimerverseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F9E8266189A043600B6B7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9E830B189A04D300B6B7E5 /* GT.mp3 in Resources */,
+				6F9E8301189A04D300B6B7E5 /* Alert 2.mp3 in Resources */,
+				6F9E8284189A043600B6B7E5 /* Images.xcassets in Resources */,
+				6F9E8308189A04D300B6B7E5 /* Dropped.mp3 in Resources */,
+				6FF8411D18EF6EAB00B4AD96 /* ringing-timer.mp3 in Resources */,
+				6FF8411E18EF6EAB00B4AD96 /* Mystical.mp3 in Resources */,
+				6FF8411F18EF6EAB00B4AD96 /* simple-timer.mp3 in Resources */,
+				6FF8411C18EF6EAB00B4AD96 /* Bell 2.mp3 in Resources */,
+				6F9E8302189A04D300B6B7E5 /* Alert 3.mp3 in Resources */,
+				6FF8411A18EF6EAB00B4AD96 /* alarm-clock.mp3 in Resources */,
+				6F9E8303189A04D300B6B7E5 /* Alert 4.mp3 in Resources */,
+				6F9E8309189A04D300B6B7E5 /* Elevator Ding.mp3 in Resources */,
+				6FA98F5019396A4A003214C0 /* iPhone_Storyboard.storyboard in Resources */,
+				F647EEC919FD984B00B7F1CA /* Localizable.strings in Resources */,
+				6FA83E0B190D4B77004CFDF4 /* waveTest.mp3 in Resources */,
+				6F9E8306189A04D300B6B7E5 /* Buzzer.mp3 in Resources */,
+				6F9E8304189A04D300B6B7E5 /* Alert 5.mp3 in Resources */,
+				6F9E830A189A04D300B6B7E5 /* Enchanted.mp3 in Resources */,
+				6F9E8307189A04D300B6B7E5 /* Cut Out.mp3 in Resources */,
+				6F9E8276189A043600B6B7E5 /* InfoPlist.strings in Resources */,
+				6F9E830C189A04D300B6B7E5 /* 1Up.mp3 in Resources */,
+				6F9E830D189A04D300B6B7E5 /* Ring.mp3 in Resources */,
+				6F9E8300189A04D300B6B7E5 /* Alert.mp3 in Resources */,
+				6FF8411B18EF6EAB00B4AD96 /* Bell 1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9E8287189A043600B6B7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9E8295189A043600B6B7E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F9E8264189A043600B6B7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9E82FF189A04D300B6B7E5 /* Sound.m in Sources */,
+				6F9E82F8189A04D300B6B7E5 /* EGOGradientView.m in Sources */,
+				6F9E8278189A043600B6B7E5 /* main.m in Sources */,
+				6F9E82F2189A04D300B6B7E5 /* AbyssView.m in Sources */,
+				6F9E8316189A04D300B6B7E5 /* TMVItemManager.m in Sources */,
+				6FF7C86118D4FE81000D0D96 /* IFTTTAngleAnimation.m in Sources */,
+				6F9CDC0618BECDCF002ADB1E /* UIColor+Additions.m in Sources */,
+				6FA98F4919396A0F003214C0 /* TMVTutorialViewController.m in Sources */,
+				6F7EC5B318A0A7960073F6B8 /* TMVAlarmItem.m in Sources */,
+				6FA82A0318DF36D600D72AB4 /* TMVAboutViewController.m in Sources */,
+				6FF7C86218D4FE81000D0D96 /* IFTTTAnimatedScrollViewController.m in Sources */,
+				6FA38A69192D87A800A035D6 /* PaintCube.m in Sources */,
+				6F9E82FA189A04D300B6B7E5 /* Location.m in Sources */,
+				6F883B1818AC5A05006B9CBD /* SAMath.m in Sources */,
+				6FAB6F6219733216009B70AE /* Settings.m in Sources */,
+				6F9E831E189A04D300B6B7E5 /* TMVAppContainerViewController.m in Sources */,
+				6FF7C86318D4FE81000D0D96 /* IFTTTAnimation.m in Sources */,
+				6F9E82F6189A04D300B6B7E5 /* Color.m in Sources */,
+				6FAB6F6B197375B9009B70AE /* TMVTimerViewController.m in Sources */,
+				6F9E82FB189A04D300B6B7E5 /* TNKDisplayLink.m in Sources */,
+				6F9E8326189A056C00B6B7E5 /* TMVPaperView.m in Sources */,
+				6F9DB7E518C2A30200EC0F88 /* SATimerControl.m in Sources */,
+				6FA98F4E19396A2F003214C0 /* TMVSoundManager.m in Sources */,
+				6FA38A76192D881600A035D6 /* RectAccessor.m in Sources */,
+				6F6E89E218FA1EAD0091AF03 /* FBShimmeringLayer.m in Sources */,
+				6FA3985218A2D83D009581F5 /* TimerItem.m in Sources */,
+				6FB1CE62197F34A100109E96 /* AlarmItem.m in Sources */,
+				6FF7C86018D4FE81000D0D96 /* IFTTTAlphaAnimation.m in Sources */,
+				6FB7C9FA1A69D0200009E3C4 /* TNKColorPickerDotView.m in Sources */,
+				6F6E89E318FA1EAD0091AF03 /* FBShimmeringView.m in Sources */,
+				6FA37D3918B1799A0045456F /* TMVAlarmViewController.m in Sources */,
+				6FC1755218BAD9FB00ED3808 /* UIImage+Overlay.m in Sources */,
+				6F9E82F4189A04D300B6B7E5 /* TMVKickOutBehavior.m in Sources */,
+				6FA38A74192D881600A035D6 /* ViewFrameAccessor.m in Sources */,
+				6FFF1DAE18F06DCF00328895 /* TMVSettingsViewController.m in Sources */,
+				6FF8412218EFA17800B4AD96 /* TMVAppDelegate.m in Sources */,
+				6F9E831C189A04D300B6B7E5 /* TMVTimerItemView.m in Sources */,
+				6F9E8313189A04D300B6B7E5 /* TMVAtmosphere.m in Sources */,
+				6FB4E40018C14A300093D5F0 /* TMVNonInteractiveView.m in Sources */,
+				6FA38A6C192D87B900A035D6 /* TNKCube.m in Sources */,
+				6FC18228189DBC1B008FDE20 /* TMVSwitchCell.m in Sources */,
+				6F9E82FD189A04D300B6B7E5 /* Model.xcdatamodeld in Sources */,
+				6FC1754B18BAD9B400ED3808 /* TMVGlyphCell.m in Sources */,
+				6FF7C86918D4FE81000D0D96 /* IFTTTHideAnimation.m in Sources */,
+				6FF7C86D18D4FE92000D0D96 /* NSLayoutConstraint+SimpleFormatLanguage.m in Sources */,
+				6FA38A75192D881600A035D6 /* ScrollViewFrameAccessor.m in Sources */,
+				6F6E89E618FA1F1B0091AF03 /* TMVNotificationManager.m in Sources */,
+				6FA82A0918DF659400D72AB4 /* TMVSettingsContainerController.m in Sources */,
+				6FBC247C19F7286400DA41F3 /* TMVIAPManager.m in Sources */,
+				6F95654218A7007F00F3B95D /* SKMuteSwitchDetector.m in Sources */,
+				6FA3984F18A2D83D009581F5 /* CounterItem.m in Sources */,
+				6FB7338518E656AC00C21D36 /* TMVOrbViewCell.m in Sources */,
+				6F9E831A189A04D300B6B7E5 /* TMVSoundWave.m in Sources */,
+				6FA98F4C19396A1C003214C0 /* TNKArrayDataSource.m in Sources */,
+				F662B095189C15B100BC43F1 /* UIView+AutoLayout.m in Sources */,
+				6FA23B53196F130A0069F8F3 /* TMVVolumeDetector.m in Sources */,
+				6F9E831B189A04D300B6B7E5 /* TMVTimerItem.m in Sources */,
+				6FD52BA718E720CB006BF88E /* TMVOrbView.m in Sources */,
+				6FC1754C18BAD9B400ED3808 /* TMVSoundCell.m in Sources */,
+				6FA6CE8B19723AF100629AEE /* TMVStatusBarGroupView.m in Sources */,
+				6F628212191AF52000D5B8FE /* TMVCounterLabel.m in Sources */,
+				6FF7C86818D4FE81000D0D96 /* IFTTTFrameAnimation.m in Sources */,
+				6FA04DCD191476C60033E2D3 /* TMVDashView.m in Sources */,
+				6FF7C86618D4FE81000D0D96 /* IFTTTAnimator.m in Sources */,
+				6FC8F2A219F9D296005EF4D7 /* TMVStatusBarLockView.m in Sources */,
+				6F7EC5B618A0A83A0073F6B8 /* TMVAlarmItemView.m in Sources */,
+				6FF7C86718D4FE81000D0D96 /* IFTTTColorAnimation.m in Sources */,
+				6F183C0818FF723300404A3E /* TMVHelixFlowLayout.m in Sources */,
+				6FB7BED7190356AB00D03A0B /* TMVQuoteViewContainerView.m in Sources */,
+				6F2E27D6189F096B0076E4E6 /* TMVFloatingBehavior.m in Sources */,
+				6F2E27D0189EEDA90076E4E6 /* TMVSettingsButtonView.m in Sources */,
+				6F3A02DE18DFCFB20044A54F /* LRScrollViewController.m in Sources */,
+				6F9E8317189A04D300B6B7E5 /* TMVItemView.m in Sources */,
+				6FBC247919F7285600DA41F3 /* IAPHelper.m in Sources */,
+				6FA266A318A748020023419A /* TMVStatusBarView.m in Sources */,
+				6FA24AE118BD8A8B004D2796 /* TMVGalaxy.m in Sources */,
+				6F9DB7F718C2A6AE00EC0F88 /* TMVQuoteView.m in Sources */,
+				6FA32D6118C38F4200210CF7 /* TMVNonInteractiveScrollView.m in Sources */,
+				6F8A47F718B104A400D6BDD3 /* TMVTimeManager.m in Sources */,
+				6F183C0518FF71F200404A3E /* TMVQuoteCell.m in Sources */,
+				6FF7C86518D4FE81000D0D96 /* IFTTTAnimationKeyFrame.m in Sources */,
+				6F183C0218FF71BB00404A3E /* TMVQuoteViewController.m in Sources */,
+				6F9DB7E418C2A30200EC0F88 /* SAAlarmControl.m in Sources */,
+				6FC1821C189D90DB008FDE20 /* TMVClockLabel.m in Sources */,
+				6FB3ED16197DC061006509C8 /* Item.m in Sources */,
+				6F9E830F189A04D300B6B7E5 /* TDMScreenEdgePanGestureRecognizer.m in Sources */,
+				6FB7338218E641C600C21D36 /* TMVIconView.m in Sources */,
+				6FF7C86418D4FE81000D0D96 /* IFTTTAnimationFrame.m in Sources */,
+				6FB1CE5F197F34A100109E96 /* Days.m in Sources */,
+				6F9E8315189A04D300B6B7E5 /* TMVDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9E8285189A043600B6B7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9E8297189A043600B6B7E5 /* TimerverseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F9E828F189A043600B6B7E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F9E8267189A043600B6B7E5 /* Timerverse */;
+			targetProxy = 6F9E828E189A043600B6B7E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F9E8274189A043600B6B7E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9E8275189A043600B6B7E5 /* en */,
+				F647EECC19FD984C00B7F1CA /* es */,
+				F647EECF19FD986000B7F1CA /* de */,
+				F647EED519FD987600B7F1CA /* it */,
+				F647EED819FD988100B7F1CA /* ja */,
+				F647EEDB19FD988B00B7F1CA /* pt */,
+				F647EEDE19FD989600B7F1CA /* zh-Hans */,
+				F647EEE119FD9D6300B7F1CA /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F9E8293189A043600B6B7E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9E8294189A043600B6B7E5 /* en */,
+				F647EECD19FD984C00B7F1CA /* es */,
+				F647EED019FD986000B7F1CA /* de */,
+				F647EED619FD987600B7F1CA /* it */,
+				F647EED919FD988100B7F1CA /* ja */,
+				F647EEDC19FD988B00B7F1CA /* pt */,
+				F647EEDF19FD989600B7F1CA /* zh-Hans */,
+				F647EEE219FD9D6300B7F1CA /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F647EECB19FD984B00B7F1CA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F647EECA19FD984B00B7F1CA /* es */,
+				F647EECE19FD986000B7F1CA /* de */,
+				F647EED419FD987600B7F1CA /* it */,
+				F647EED719FD988100B7F1CA /* ja */,
+				F647EEDA19FD988B00B7F1CA /* pt */,
+				F647EEDD19FD989600B7F1CA /* zh-Hans */,
+				F647EEE019FD9D6200B7F1CA /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F9E8298189A043600B6B7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F9E8299189A043600B6B7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9E829B189A043600B6B7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49Q63X4R6X;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timerverse/Timerverse-Prefix.pch";
+				INFOPLIST_FILE = "Timerverse/Timerverse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = justin.cabral.timerverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Timerverse/Timerverse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F9E829C189A043600B6B7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49Q63X4R6X;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timerverse/Timerverse-Prefix.pch";
+				INFOPLIST_FILE = "Timerverse/Timerverse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = justin.cabral.timerverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Timerverse/Timerverse-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F9E829E189A043600B6B7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timerverse.app/Timerverse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timerverse/Timerverse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimerverseTests/TimerverseTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Thinkr.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6F9E829F189A043600B6B7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Timerverse.app/Timerverse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Timerverse/Timerverse-Prefix.pch";
+				INFOPLIST_FILE = "TimerverseTests/TimerverseTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Thinkr.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9E8263189A043600B6B7E5 /* Build configuration list for PBXProject "Timerverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9E8298189A043600B6B7E5 /* Debug */,
+				6F9E8299189A043600B6B7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9E829A189A043600B6B7E5 /* Build configuration list for PBXNativeTarget "Timerverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9E829B189A043600B6B7E5 /* Debug */,
+				6F9E829C189A043600B6B7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9E829D189A043600B6B7E5 /* Build configuration list for PBXNativeTarget "TimerverseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9E829E189A043600B6B7E5 /* Debug */,
+				6F9E829F189A043600B6B7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F9E82B4189A04D300B6B7E5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F9E82B5189A04D300B6B7E5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 6F9E82B5189A04D300B6B7E5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F9E8260189A043600B6B7E5 /* Project object */;
+}

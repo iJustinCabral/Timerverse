@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AlarmItem" representedClassName="AlarmItem" parentEntity="Item" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="days" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Days" inverseName="alarmItem" inverseEntity="Days" syncable="YES"/>
+    </entity>
+    <entity name="Color" representedClassName="Color" syncable="YES">
+        <attribute name="alpha" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="brightness" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="hue" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="saturation" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="color" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="CounterItem" representedClassName="CounterItem" parentEntity="Item" syncable="YES"/>
+    <entity name="Days" representedClassName="Days" syncable="YES">
+        <attribute name="friday" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="monday" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="saturday" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sunday" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="thrusday" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tuesday" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="wednesday" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="alarmItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AlarmItem" inverseName="days" inverseEntity="AlarmItem" syncable="YES"/>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="drawIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="enabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="glyphURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gridLockIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="iterationStartTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repeat" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="running" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="color" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Color" inverseName="item" inverseEntity="Color" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Location" inverseName="item" inverseEntity="Location" syncable="YES"/>
+        <relationship name="sound" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sound" inverseName="items" inverseEntity="Sound" syncable="YES"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="x" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Item" inverseName="location" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="alertVibrationEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="clockCorner" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="clockSecondsEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="effectGridLockEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="totalCountedSeconds" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Sound" representedClassName="Sound" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceExt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vibration" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="vibrationDuration" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="volume" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="sound" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <entity name="TimerItem" representedClassName="TimerItem" parentEntity="Item" syncable="YES"/>
+    <elements>
+        <element name="AlarmItem" positionX="-54" positionY="-162" width="128" height="73"/>
+        <element name="Color" positionX="153" positionY="90" width="128" height="120"/>
+        <element name="CounterItem" positionX="97" positionY="-144" width="128" height="45"/>
+        <element name="Item" positionX="-27" positionY="45" width="128" height="270"/>
+        <element name="Location" positionX="-225" positionY="126" width="128" height="90"/>
+        <element name="Settings" positionX="-342" positionY="-72" width="128" height="118"/>
+        <element name="Sound" positionX="358" positionY="99" width="128" height="150"/>
+        <element name="TimerItem" positionX="-180" positionY="-72" width="128" height="45"/>
+        <element name="Days" positionX="-333" positionY="-280" width="128" height="163"/>
+    </elements>
+</model>
